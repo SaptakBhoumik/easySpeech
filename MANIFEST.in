@@ -1,1 +1,5 @@
 include README.md
+include ./easySpeech/flac-linux-x86
+include ./easySpeech/flac-linux-x86_64 
+include ./easySpeech/flac-mac 
+include ./easySpeech/flac-win32.exe"
