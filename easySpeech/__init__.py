@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 
 __project__      = 'easySpeech'
-__version__      = '1'
+__version__      = '1.0.1'
 __keywords__     = ['easySpeech', 'easyspeech', 'speech', 'speech_recognition']
 __author__       = 'Saptak Bhoumik'
 __author_email__ = 'saptakbhoumik@gmail.com'
