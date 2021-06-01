@@ -4,10 +4,10 @@
 </p> 
 
 ---
-[![GitHub issues](https://img.shields.io/github/issues/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/WebPlus/issues)
-[![GitHub forks](https://img.shields.io/github/forks/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/WebPlus/network/members)
-[![GitHub stars](https://img.shields.io/github/stars/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/WebPlus/stargazers)
-[![GitHub license](https://img.shields.io/github/license/SaptakBhoumik/easySpeech)](https://www.github.com/SaptakBhoumik/WebPlus/tree/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/easySpeech/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/easySpeech/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/SaptakBhoumik/easySpeech)](https://github.com/SaptakBhoumik/easySpeech/stargazers)
+[![GitHub license](https://img.shields.io/github/license/SaptakBhoumik/easySpeech)](https://www.github.com/SaptakBhoumik/easySpeech/tree/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SaptakBhoumik/easySpeech)
 ![GitHub contributors](https://img.shields.io/github/contributors/SaptakBhoumik/easySpeech)
 
