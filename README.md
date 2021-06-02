@@ -10,6 +10,7 @@
 [![GitHub license](https://img.shields.io/github/license/SaptakBhoumik/easySpeech)](https://www.github.com/SaptakBhoumik/easySpeech/tree/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SaptakBhoumik/easySpeech)
 ![GitHub contributors](https://img.shields.io/github/contributors/SaptakBhoumik/easySpeech)
+[![Downloads](https://static.pepy.tech/badge/easySpeech)](https://pypi.org/project/easySpeech)
 
 <hr>
 easySpeech is an open source python wrapper for google speech to text api that doesn't require PyAaudio(So you specially windows user don't have to deal with the errors while installing PyAudio) and also works with hugging face transformers
