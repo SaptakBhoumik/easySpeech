@@ -27,4 +27,15 @@ def speech(using,freq = 44100,duration = 5,key=None, language="en-US", show_all=
     else:
         text='engine not found'
     return text
-    
+
+def google_audio(file,key=None, language="en-US", show_all=False):
+    r = Recognizer()
+    recording = AudioFile(file)
+    with recording as source:
+        audio = r.record(source)
+    text=r.recognize_google(audio,key, language, show_all)
+    return text
+
+def recorder(name,duration = 5,freq = 44100):  
+    recording = sd.rec(int(duration * freq),samplerate=freq, channels=2)
+    write(name, recording, freq, sampwidth=2)
