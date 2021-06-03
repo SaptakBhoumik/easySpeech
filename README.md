@@ -57,12 +57,9 @@ print(a)
 ```
 Converting an audio file to text(Currently it supports only wav file)
 ```
-from easySpeech.recognize import *
-r = Recognizer()
-recording = AudioFile('recording.wav')
-with recording as source:
-    audio = r.record(source)
-text=r.recognize_google(audio,key=None, language="en-US", show_all=False)
+from easySpeech import speech
+a=speech.google_audio('recording.wav')
+print(a)
 ```
 
 * Using hugging face transformers(works offline and no need of any kind of api key)
@@ -93,14 +90,18 @@ print(a)
 * Recording audio <br>
 For recording audio use the following code
 ```
-from easySpeech import record
-import sounddevice as sd
-freq = 44100
-duration = 5
-recording = sd.rec(int(duration * freq), 
-                    samplerate=freq, channels=2)
-
-record.write("recording.wav", recording, freq, sampwidth=2)
+from easySpeech import speech
+speech.recorder('recording.wav')
+```
+For recording audio with a specific frequency use the following code(default is 44100)
+```
+from easySpeech import speech
+speech.recorder('recording.wav',freq = 50000)
+```
+For recording audio for a specific duration use the following code(default is 5s)
+```
+from easySpeech import speech
+speech.recorder('recording.wav',duration = 50)
 ```
 <br>
 
