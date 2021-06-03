@@ -38,4 +38,5 @@ def google_audio(file,key=None, language="en-US", show_all=False):
 
 def recorder(name,duration = 5,freq = 44100):  
     recording = sd.rec(int(duration * freq),samplerate=freq, channels=2)
+    sd.wait()
     write(name, recording, freq, sampwidth=2)
