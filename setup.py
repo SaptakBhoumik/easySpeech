@@ -32,7 +32,7 @@ class InstallWithExtraSteps(install):
 # This call to setup() does all the work
 setup(
     name="easySpeech",
-    version="1.0.1",
+    version="1.0.2",
     cmdclass={"install": InstallWithExtraSteps},
     description="A python wrapper for google speech to text api",
     long_description=long_description,
