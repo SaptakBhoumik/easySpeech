@@ -1,3 +1,5 @@
+Please check out my  [latest project](https://github.com/Swallow-lang/swallow) => https://github.com/Swallow-lang/swallow
+
 ## easySpeech
 <p align="center">
 <a href="https://github.com/SaptakBhoumik/easySpeech/"><img width="727" src="https://img.shields.io/badge/easySpeech-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
