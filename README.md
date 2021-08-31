@@ -28,37 +28,37 @@ pip3 install easySpeech
 ## Usage
 * Using google speech to text api <br>
 By default easySpeech comes with a default api key which you can for testing purposes using the following code.
-```
+```python
 from easySpeech import speech
 a=speech.speech('google')
 print(a)
 ```
 For production purpose use your own key because google can revoke the default api key at any time. Get your own api key from http://www.chromium.org/developers/how-tos/api-keys and use the following code
-```
+```python
 from easySpeech import speech
 a=speech.speech('google',key="your api key")
 print(a)
 ```
 Specifying the duration of speech recognition in seconds(default value is 5 seconds)
-```
+```python
 from easySpeech import speech
 a=speech.speech('google',duration = 10)
 print(a)
 ```
 Specifying the sample frequency(default is 44100)
-```
+```python
 from easySpeech import speech
 a=speech.speech('google',duration = 10,freq = 44100)
 print(a)
 ```
 Specifying the language(works only for google speech api and default is english)
-```
+```python
 from easySpeech import speech
 a=speech.speech('google',language="en-US")
 print(a)
 ```
 Converting an audio file to text(Currently it supports only wav file)
-```
+```python
 from easySpeech import speech
 a=speech.google_audio('recording.wav')
 print(a)
@@ -66,42 +66,42 @@ print(a)
 
 * Using hugging face transformers(works offline and no need of any kind of api key)
 For using easySpeech with hugging face transformers use the following code.
-```
+```python
 from easySpeech import speech
 a=speech.speech('ml')
 print(a)
 ```
 Specifying the duration of speech recognition in seconds(default valus is 5 seconds)
-```
+```python
 from easySpeech import speech
 a=speech.speech('ml',duration = 10)
 print(a)
 ```
 Specifying the sample frequency(default is 44100)
-```
+```python
 from easySpeech import speech
 a=speech.speech('ml',duration = 10,freq = 44100)
 print(a)
 ```
 Converting an audio file to text(Currently it supports only wav file)
-```
+```python
 from easySpeech import ml
 a=ml.ml('recording.wav')
 print(a)
 ```
 * Recording audio <br>
 For recording audio use the following code
-```
+```python
 from easySpeech import speech
 speech.recorder('recording.wav')
 ```
 For recording audio with a specific frequency use the following code(default is 44100)
-```
+```python
 from easySpeech import speech
 speech.recorder('recording.wav',freq = 50000)
 ```
 For recording audio for a specific duration use the following code(default is 5s)
-```
+```python
 from easySpeech import speech
 speech.recorder('recording.wav',duration = 50)
 ```
@@ -125,7 +125,7 @@ If you find any bug make a <a href="https://github.com/SaptakBhoumik/easySpeech/
 
 # License
 easySpeech is lisenced under MIT license
-```
+```bash
 MIT License | Copyright (c) 2021 SaptakBhoumik
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
